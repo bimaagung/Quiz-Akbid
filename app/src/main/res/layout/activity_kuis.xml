@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    android:background="@drawable/bgkuis"
+    tools:context="com.example.otet.quizakbid.kuis">
+
+    <TextView
+        android:id="@+id/soal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:visibility="invisible"
+        android:textSize="40dp"
+        android:fontFamily="sans-serif"
+        />
+
+    <ImageView
+        android:id="@+id/jawaba"
+        android:layout_width="200dp"
+        android:layout_marginTop="10dp"
+        android:layout_height="70dp"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:visibility="invisible"
+        />
+
+    <ImageView
+        android:id="@+id/jawabb"
+        android:layout_below="@+id/jawaba"
+        android:layout_width="200dp"
+        android:layout_marginTop="10dp"
+        android:layout_height="70dp"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:visibility="invisible"
+        />
+
+    <ImageView
+        android:id="@+id/jawabc"
+        android:layout_below="@+id/jawabb"
+        android:layout_width="200dp"
+        android:layout_marginTop="10dp"
+        android:layout_height="70dp"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:visibility="invisible"
+        />
+
+    <ImageView
+        android:id="@+id/jawabd"
+        android:layout_below="@+id/jawabc"
+        android:layout_width="200dp"
+        android:layout_marginTop="10dp"
+        android:layout_height="70dp"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:visibility="invisible"
+        />
+    
+    <TextView
+        android:id="@+id/skor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="40dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:visibility="invisible"/>
+
+    <ImageView
+        android:id="@+id/selesai"
+        android:layout_width="200dp"
+        android:layout_height="70dp"
+        android:src="@drawable/btnselesai"
+        android:visibility="invisible"
+        android:layout_alignTop="@+id/jawabb"
+        android:layout_alignStart="@+id/jawabb" />
+
+    <TextView
+        android:id="@+id/sisawaktu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:layout_centerHorizontal="true"
+        android:visibility="invisible"/>
+
+
+    <TextView
+        android:id="@+id/pengguna"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:textSize="20dp"
+        android:translationY="40dp"/>
+
+    <EditText
+        android:id="@+id/login"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:translationY="130dp"
+        android:layout_centerHorizontal="true"
+        android:visibility="visible"/>
+    
+    <Button
+        android:id="@+id/btnlogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Masuk"
+        android:translationY="180dp"
+        android:translationX="150dp"
+        android:visibility="visible"/>
+
+
+
+
+
+</RelativeLayout>
